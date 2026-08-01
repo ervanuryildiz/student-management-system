@@ -87,7 +87,7 @@ http://localhost/student_project
 
 ### Login
 
-![Login](screenshots/login.png)
+![Login](screenshots/login.JPG)
 
 ### Admin Dashboard
 
