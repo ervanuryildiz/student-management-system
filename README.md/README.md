@@ -82,16 +82,24 @@ http://localhost/student_project
 
 ---
 
+
 ## 📸 Screenshots
 
-- Login Page
-- Admin Dashboard
-- Student Dashboard
-- Academician Dashboard
-- Student Management
-- Course Management
-- Announcement Module
+### Login
 
+![Login](screenshots/login.png)
+
+### Admin Dashboard
+
+![Admin Dashboard](screenshots/admin_dashboard.png)
+
+### Student Dashboard
+
+![Student Dashboard](screenshots/student_dashboard.png)
+
+### Academician Dashboard
+
+![Academician Dashboard](screenshots/academician_dashboard.png)
 ---
 
 ## 👩‍💻 Developer
