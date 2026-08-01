@@ -1,0 +1,18 @@
+# Visual Studio Code
+.vscode/
+
+# JetBrains IDEs
+.idea/
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# Log files
+*.log
+
+# Composer (kullanıyorsan)
+vendor/
+
+# Environment files
+.env

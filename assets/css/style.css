@@ -1,0 +1,427 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100vh;
+
+    font-family: "Segoe UI", Arial, sans-serif;
+
+    background: #f4f7fb;
+    color: #1e293b;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* ==============================
+   SIDEBAR
+============================== */
+
+.sidebar {
+    position: fixed;
+
+    top: 0;
+    left: 0;
+
+    width: 250px;
+    height: 100vh;
+
+    padding: 25px 18px;
+
+    background: #0f172a;
+
+    color: white;
+
+    z-index: 1000;
+}
+
+
+.sidebar-logo {
+    display: flex;
+
+    align-items: center;
+
+    gap: 12px;
+
+    padding: 5px 8px 25px;
+
+    border-bottom: 1px solid #263247;
+}
+
+
+.logo-icon {
+    width: 45px;
+    height: 45px;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    flex-shrink: 0;
+
+    background: #2563eb;
+
+    border-radius: 10px;
+
+    font-size: 22px;
+}
+
+
+.logo-text strong {
+    display: block;
+
+    font-size: 16px;
+}
+
+
+.logo-text span {
+    display: block;
+
+    margin-top: 3px;
+
+    color: #94a3b8;
+
+    font-size: 11px;
+}
+
+
+.menu-title {
+    margin: 25px 10px 10px;
+
+    color: #64748b;
+
+    font-size: 10px;
+
+    letter-spacing: 1px;
+}
+
+
+.sidebar-menu {
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 6px;
+}
+
+
+.sidebar-menu a {
+    display: flex;
+
+    align-items: center;
+
+    gap: 12px;
+
+    padding: 12px 13px;
+
+    border-radius: 8px;
+
+    color: #cbd5e1;
+
+    font-size: 14px;
+
+    transition: .2s;
+}
+
+
+.sidebar-menu a:hover {
+    background: #1e293b;
+
+    color: white;
+}
+
+
+.sidebar-menu a.active {
+    background: #2563eb;
+
+    color: white;
+}
+
+
+.menu-icon {
+    width: 22px;
+
+    text-align: center;
+
+    flex-shrink: 0;
+}
+
+
+.sidebar-bottom {
+    position: absolute;
+
+    left: 18px;
+    right: 18px;
+    bottom: 25px;
+}
+
+
+.sidebar-logout {
+    display: block;
+
+    padding: 11px;
+
+    border-radius: 8px;
+
+    background: #dc2626;
+
+    color: white;
+
+    text-align: center;
+
+    font-size: 13px;
+
+    font-weight: 600;
+}
+
+
+.sidebar-logout:hover {
+    background: #b91c1c;
+}
+
+
+/* ==============================
+   MAIN
+============================== */
+
+.main {
+    min-height: 100vh;
+
+    margin-left: 250px;
+}
+
+
+/* ==============================
+   HEADER
+============================== */
+
+.top-header {
+    height: 72px;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 0 35px;
+
+    background: white;
+
+    border-bottom: 1px solid #e2e8f0;
+}
+
+
+.header-title h2 {
+    color: #0f172a;
+
+    font-size: 18px;
+}
+
+
+.header-title p {
+    margin-top: 3px;
+
+    color: #94a3b8;
+
+    font-size: 12px;
+}
+
+
+.header-right {
+    display: flex;
+
+    align-items: center;
+
+    gap: 20px;
+}
+
+
+.profile {
+    display: flex;
+
+    align-items: center;
+
+    gap: 12px;
+}
+
+
+.profile-text {
+    text-align: right;
+}
+
+
+.profile-text strong {
+    display: block;
+
+    color: #0f172a;
+
+    font-size: 13px;
+}
+
+
+.profile-text span {
+    color: #94a3b8;
+
+    font-size: 11px;
+}
+
+
+.avatar {
+    width: 40px;
+    height: 40px;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 50%;
+
+    background: #dbeafe;
+
+    color: #2563eb;
+
+    font-weight: 700;
+}
+
+
+/* ==============================
+   CONTENT
+============================== */
+
+.content {
+    width: 100%;
+
+    max-width: 1450px;
+
+    margin: auto;
+
+    padding: 35px;
+}
+
+
+.page-header {
+    margin-bottom: 25px;
+}
+
+
+.page-header h1 {
+    margin-bottom: 7px;
+
+    color: #0f172a;
+
+    font-size: 27px;
+}
+
+
+.page-header p {
+    color: #64748b;
+
+    font-size: 14px;
+
+    line-height: 1.5;
+}
+
+
+/* ==============================
+   GENEL KART
+============================== */
+
+.card {
+    background: white;
+
+    border: 1px solid #e2e8f0;
+
+    border-radius: 12px;
+
+    box-shadow: 0 2px 5px rgba(0, 0, 0, .03);
+}
+
+
+/* ==============================
+   RESPONSIVE
+============================== */
+
+@media(max-width: 800px) {
+
+    .sidebar {
+        width: 75px;
+
+        padding: 20px 10px;
+    }
+
+
+    .sidebar-logo {
+        justify-content: center;
+
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+
+    .logo-text,
+    .menu-title {
+        display: none;
+    }
+
+
+    .sidebar-menu a {
+        justify-content: center;
+
+        padding: 12px 5px;
+
+        font-size: 0;
+    }
+
+
+    .menu-icon {
+        width: auto;
+
+        font-size: 18px;
+    }
+
+
+    .sidebar-bottom {
+        left: 10px;
+        right: 10px;
+    }
+
+
+    .sidebar-logout {
+        font-size: 0;
+    }
+
+
+    .sidebar-logout::after {
+        content: "↪";
+
+        font-size: 20px;
+    }
+
+
+    .main {
+        margin-left: 75px;
+    }
+
+
+    .top-header {
+        padding: 0 18px;
+    }
+
+
+    .profile-text {
+        display: none;
+    }
+
+
+    .content {
+        padding: 25px 18px;
+    }
+
+}
