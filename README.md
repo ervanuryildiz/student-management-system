@@ -91,15 +91,16 @@ http://localhost/student_project
 
 ### Admin Dashboard
 
-![Admin Dashboard](screenshots/admin_dashboard.png)
+![Admin Dashboard](screenshots/admin_dashboard.JPG)
 
 ### Student Dashboard
 
-![Student Dashboard](screenshots/student_dashboard.png)
+![Student Dashboard](screenshots/student_dashboard.JPG)
 
 ### Academician Dashboard
 
-![Academician Dashboard](screenshots/academician_dashboard.png)
+![Academician Dashboard](screenshots/academician_dashboard.JPG)
+
 ---
 
 ## 👩‍💻 Developer
